@@ -17,7 +17,7 @@ steps:
 
 - script: |
     npm install
-    npm test
+    npm run test:coverage
   displayName: 'Running tests'
 
 - script: |
